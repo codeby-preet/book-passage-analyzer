@@ -12,7 +12,7 @@ import os
 import google.generativeai as genai
 
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyCQzNoZDfGu7DjG4-R2nAsc3eWv3un5X2k"
+os.environ["GOOGLE_API_KEY"] = "Paste Api Key"
 genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
 
 def analyze_with_gemini(passage):
